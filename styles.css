@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(2, 45, 82);
+}
+li{
+    float:right;
+    display:block;
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    padding-right: 2.5rem;
+
+}
+
+.navi a{
+    text-decoration: none;
+    color: rgb(241, 237, 237);
+}
+
+.navi a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+li.name{
+    float:left;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgba(123, 194, 194, 0.956);
+    
+}
+
+.intro{
+    font-size: 3rem;
+    padding: 7rem 4rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name1{
+    color: darkorchid;
+}
+
+.name2{
+    color:aqua;
+}

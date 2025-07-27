@@ -4,9 +4,9 @@ import { Github, Linkedin, Twitter, Mail, Code2 } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/sampathmenuka', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/sampath-menuka-chandimal-50588a248/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/pasindusmc909', label: 'Twitter' },
     { icon: Mail, href: 'mailto:contact@example.com', label: 'Email' },
   ];
 

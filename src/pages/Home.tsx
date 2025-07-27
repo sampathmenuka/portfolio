@@ -31,6 +31,13 @@ const Home: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               
+               <img
+                  src="../pictures/1.JPG"
+                  alt="Sampath Menuka Chandimal"
+                  className="w-36 h-36 rounded-full mx-auto mb-6 shadow-lg border-4 border-white dark:border-gray-800 object-cover"
+                /> 
+
+
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-teal-500 bg-clip-text text-transparent">
                 SAMPATH MENUKA CHANDIMAL
               </span>

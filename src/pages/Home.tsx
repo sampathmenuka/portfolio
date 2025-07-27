@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ArrowRight, Download, Github, ExternalLink } from 'lucide-react';
+import { ArrowRight, Download, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import TechStack from '../components/TechStack';
@@ -82,17 +82,17 @@ const Home: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <Link 
-                to="/portfolio"
-                className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl"
-              >
-                <span>Explore My Work</span>
+  to="/portfolio"
+  className="group bg-gradient-to-r from-indigo-600 via-purple-700 to-blue-700 hover:from-indigo-700 hover:via-purple-800 hover:to-blue-800 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl focus:ring-2 focus:ring-purple-400"
+>
+  <span>Explore My Work</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
               
-              <button className="group border-2 border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2">
-                <Download className="w-5 h-5" />
-                <span>Download Resume</span>
-              </button>
+              <button className="group bg-gradient-to-r from-blue-700 via-purple-700 to-indigo-600 hover:from-blue-800 hover:via-purple-800 hover:to-indigo-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl border-0 focus:ring-2 focus:ring-blue-400">
+    <Download className="w-5 h-5" />
+    <span>Download Resume</span>
+  </button>
             </motion.div>
           </motion.div>
         </div>

@@ -32,15 +32,19 @@ const Home: React.FC = () => {
             >
               
                <img
-                  src="../pictures/1.JPG"
+                  src="/pictures/1.png"
                   alt="Sampath Menuka Chandimal"
-                  className="w-36 h-36 rounded-full mx-auto mb-6 shadow-lg border-4 border-white dark:border-gray-800 object-cover"
+                  className="w-64 h-64 rounded-full mx-auto mb-6 shadow-lg border-4 border-white dark:border-gray-800 object-cover"
                 /> 
 
 
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-teal-500 bg-clip-text text-transparent">
-                SAMPATH MENUKA CHANDIMAL
-              </span>
+                <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-teal-500 bg-clip-text text-transparent">
+          Hello, I'm
+          <br />
+          <span className="text-7xl md:text-8xl font-extrabold drop-shadow-lg tracking-wide bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+            SAMPATH
+          </span>
+        </span>
             </motion.h1>
             
             <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 h-16">

@@ -34,7 +34,7 @@ const Home: React.FC = () => {
                <img
                   src="/pictures/1.png"
                   alt="Sampath Menuka Chandimal"
-                  className="w-64 h-64 rounded-full mx-auto mb-6 shadow-lg border-4 border-white dark:border-gray-800 object-cover"
+                  className="w-56 h-56 rounded-full mx-auto mb-6 shadow-lg border-4 border-white dark:border-gray-800 object-cover"
                 /> 
 
 

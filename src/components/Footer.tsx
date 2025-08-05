@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Code2 className="w-8 h-8 text-blue-600 dark:text-blue-400" />
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-                SabraSE
+                SAMPATH
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 max-w-md">

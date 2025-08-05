@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © {new Date().getFullYear()} SabraSE. Built with React, TypeScript, and Tailwind CSS.
+            © {new Date().getFullYear()} Sampath Menuka Chandimal | Portfolio.
           </p>
         </div>
       </div>

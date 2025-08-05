@@ -32,19 +32,19 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/sampathmenuka',
       color: 'hover:text-gray-900 dark:hover:text-white',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/sampath-menuka-chandimal-50588a248/',
       color: 'hover:text-blue-600',
     },
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com',
+      href: 'https://x.com/pasindusmc909',
       color: 'hover:text-blue-400',
     },
   ];
